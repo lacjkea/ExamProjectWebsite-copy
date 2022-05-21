@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 /* CSS RESET */
 html,
 body,
@@ -135,14 +136,12 @@ img {
 /* Font import */
 
 /* Variables */
-/* colours */
-/* 020C2D black
-505851 green
-9CA580 light green
-D1242D red */
-
-/* CSS PRIMARY COLORS*/
+/* --- CSS FONT VARIABLES*/
 :root {
+  /* FONTS */
+  --font-primary: "Dela Gothic One", sans-serif;
+  --font-secondary: "Lato", sans-serif;
+
   /* primary - offwhite */
   --color-primary-offwhite: #f7d1c3;
   --color-primary-offwhite-600: #f4c0ac;
