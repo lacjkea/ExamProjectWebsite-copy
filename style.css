@@ -129,3 +129,54 @@ img {
   height: auto;
 }
 /* End reset styles */
+
+/* REGULAR CSS STYLING BELOW */
+
+/* Font import */
+
+/* Variables */
+/* colours */
+/* 020C2D black
+505851 green
+9CA580 light green
+D1242D red */
+
+/* CSS PRIMARY COLORS*/
+:root {
+  /* primary - offwhite */
+  --color-primary-offwhite: #f7d1c3;
+  --color-primary-offwhite-600: #f4c0ac;
+  --color-primary-offwhite-700: #ee9d7f;
+  --color-primary-offwhite-800: #e87b52;
+  --color-primary-offwhite-900: #e25825;
+
+  /* secondary - green */
+  --color-secondary-green: #505851;
+  --color-secondary-green-600: #444b45;
+  --color-secondary-green-700: #2c302c;
+  --color-secondary-green-800: #131514;
+  --color-secondary-green-900: #000000;
+
+  /* accent - red */
+  --color-accent-red: #d1242d;
+  --color-accent-red-600: #bb2028;
+  --color-accent-red-700: #90191f;
+  --color-accent-red-800: #641116;
+  --color-accent-red-900: #390a0c;
+
+  /* navy */
+  --color-navy: #020c2d;
+  --color-navy-600: #010515;
+  --color-navy-700: #000000;
+
+  /* white */
+  --color-white: #ffffff;
+  --color-white-600: #f2f2f2;
+  --color-white-700: #d9d9d9;
+  --color-white-800: #bfbfbf;
+  --color-white-900: #a6a6a6;
+}
+
+/* font */
+
+/* ----- LANDING PAGE -----*/
