@@ -117,3 +117,82 @@ header {
   height: 100%;
   width: 100%;
 } */
+
+#TopQuote {
+  margin: 3rem;
+}
+
+/* sticky menu */
+
+.sticky_nav_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  position: sticky;
+  top: 1.2rem;
+}
+.list_menu_sticky {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* burger menu */
+.burger_menu div {
+  background-color: black;
+  width: 2rem;
+  height: 0.3rem;
+  margin: 5px;
+  border-radius: 3px;
+}
+.burger_menu {
+  display: none;
+}
+.list_menu_burger {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .burger_menu {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    left: 85%;
+    top: 10%; /* remove this when flex for menu has been created*/
+  }
+  .list_menu_burger {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: left;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30vh;
+    top: 4vh;
+    width: 50%;
+    background-color: red;
+    justify-content: space-around;
+    transform: translateX(60%);
+    transition: transform 0.5s ease-in-out;
+    padding: 1rem;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .line1_active {
+    transform: rotate(45deg) translateX(10px);
+    transition: transform 400ms ease-in-out;
+  }
+  .line3_active {
+    transform: rotate(-45deg) translateX(14px) translateY(-3px);
+    transition: transform 400ms ease-in-out;
+  }
+  .line2_active {
+    transform: translateX(100vh);
+    transition: transform 400ms ease-in-out;
+  }
+  .list_menu_active {
+    transform: translateX(-170%);
+  }
+}
