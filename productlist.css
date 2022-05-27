@@ -1,0 +1,18 @@
+/* ----- PRODUCT CARD -----*/
+.productCard {
+  width: 300px;
+  background-color: var(--color-white-800);
+  border: 2px var(--color-blue) solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productCard img {
+  height: 100%;
+  width: 30%;
+}
+
+.productCard h3 {
+  text-transform: uppercase;
+}
