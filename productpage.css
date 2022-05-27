@@ -1,3 +1,4 @@
+/** Product top and bottom sections **/
 .PPtextRight,
 .PPtextLeft,
 .PPchart{
@@ -60,7 +61,7 @@
 .PPtextLeft p{
     margin-bottom: 1rem;
 }
-
+/** desktop view: Product top and bottom sections**/
 @media only screen and (min-width: 800px){
     .PPproduct{
         display: grid;
@@ -89,4 +90,42 @@
         border-right:2px solid var(--color-navy);
     }
 }
+/** Related products **/
+.PPrelated{
+    border-bottom: 3px solid var(--color-navy);
+}
+.PPrelated h3{
+    text-transform: uppercase;
+    color: var(--color-navy);
+    border-bottom: 3px solid var(--color-navy);
+    padding: 1rem;
+}
+.relatedTitle{
+    color: var(--color-accent-red);
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    text-align: center;
+    padding:1rem;
+}
+.relatedPrice{
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px dashed var(--color-navy);
+    font-weight: 500;
 
+}
+.relatedActions{
+    display: flex;
+    justify-content:space-around ;
+    padding: 1rem;
+    border-top: 1px dashed var(--color-navy);
+
+    
+}
+.relatedActions a{
+    color: var(--color-navy);
+    font-weight: 700;
+}
+.relatedActions a:hover{
+    color: var(--color-accent-red);
+}
