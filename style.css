@@ -72,10 +72,10 @@ img {
   --color-accent-red-800: #641116;
   --color-accent-red-900: #390a0c;
 
-  /* navy */
-  --color-navy: #020c2d;
-  --color-navy-600: #010515;
-  --color-navy-700: #000000;
+  /* blue */
+  --color-blue: #475170;
+  --color-blue-600: #30374d;
+  --color-blue-700: #141720;
 
   /* white */
   --color-white: #ffffff;
@@ -117,3 +117,22 @@ header {
   height: 100%;
   width: 100%;
 } */
+
+/* ----- PRODUCT CARD -----*/
+.productCard {
+  width: 300px;
+  background-color: var(--color-white-800);
+  border: 2px var(--color-blue) solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productCard img {
+  height: 100%;
+  width: 30%;
+}
+
+.productCard h3 {
+  text-transform: uppercase;
+}
