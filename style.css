@@ -180,6 +180,12 @@ header {
   body {
     overflow-x: hidden;
   }
+  .list_menu_sticky {
+    display: none;
+  }
+  .home_link {
+    display: none;
+  }
   .line1_active {
     transform: rotate(45deg) translateX(10px);
     transition: transform 400ms ease-in-out;
