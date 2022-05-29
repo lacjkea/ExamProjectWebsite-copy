@@ -1,18 +1,72 @@
 /* ----- PRODUCT CARD -----*/
 .productCard {
-  width: 300px;
-  background-color: var(--color-white-800);
-  border: 2px var(--color-blue) solid;
+  border: 3px var(--color-blue) solid;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--color-blue);
+  font-weight: 400;
 }
 
-.productCard img {
-  height: 100%;
+.topProductSec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.productImage {
+  height: auto;
   width: 30%;
 }
 
-.productCard h3 {
+.productName {
   text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: var(--color-accent-red);
+}
+
+.priceSec {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 2px dashed var(--color-blue);
+  font-weight: 400;
+}
+.priceSec > * {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0.5rem 0rem;
+}
+
+.productActions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 2px dashed var(--color-blue);
+}
+.productActions > a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  text-transform: uppercase;
+  color: var(--color-blue);
+}
+.productActions > a:nth-of-type(1) {
+  border-right: 2px dashed var(--color-blue);
+}
+
+.btn:hover {
+  background-color: var(--color-blue);
+  color: var(--color-primary-offwhite);
+}
+
+.btn:active {
+  background-color: var(--color-blue-700);
+  color: var(--color-primary-offwhite);
 }

@@ -53,7 +53,7 @@ img {
   --font-secondary: "Lato", sans-serif;
 
   /* primary - offwhite */
-  --color-primary-offwhite: #f7d1c3;
+  --color-primary-offwhite: #f9f3ed;
   --color-primary-offwhite-600: #f4c0ac;
   --color-primary-offwhite-700: #ee9d7f;
   --color-primary-offwhite-800: #e87b52;
@@ -67,6 +67,9 @@ img {
   --color-secondary-green-900: #000000;
 
   /* accent - red */
+  --color-accent-red-50: rgb(209, 36, 45, 0.3);
+  --color-accent-red-300: #f7979c;
+  --color-accent-red-400: #e65057;
   --color-accent-red: #d1242d;
   --color-accent-red-600: #bb2028;
   --color-accent-red-700: #90191f;

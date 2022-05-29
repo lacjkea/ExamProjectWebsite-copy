@@ -11,26 +11,26 @@
   </head>
   <body>
     <main>
-      <!-- <template id="productList-template"> -->
+      <!-- <template id="productCardReg-Template"> -->
       <section class="productCard">
-        <img
-          src="Assets/bottle.png"
-          alt="Wine Bottle Image"
-          class="productImage"
-        />
-        <h3 class="productName">joy sauvignon</h3>
+        <div class="topProductSec">
+          <img
+            src="Assets/bottle.png"
+            alt="Wine Bottle Image"
+            class="productImage"
+          />
+          <h3 class="productName">joy sauvignon</h3>
+        </div>
 
-        <div class="priceDiv">
-          <h4 class="productPrice">DKK 120;-</h4>
-          <h4 class="productNewPrice">DKK 100;-</h4>
+        <div class="priceSec">
+          <p class="productPrice">DKK 120;-</p>
         </div>
 
         <div class="productActions">
-          <a href="">View product</a>
-          <a href="">Add to cart</a>
+          <a class="viewBtn btn" href="">view</a>
+          <a class="buyBtn btn" href="">buy</a>
         </div>
       </section>
-      <!-- </template> -->
     </main>
     <footer></footer>
     <script src="main.js"></script>
