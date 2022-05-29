@@ -70,3 +70,9 @@
   background-color: var(--color-blue-700);
   color: var(--color-primary-offwhite);
 }
+
+/* ----- SOLD OUT CARD -----*/
+
+.SoldOut {
+  opacity: 60%;
+}
