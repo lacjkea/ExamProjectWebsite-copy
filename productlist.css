@@ -76,3 +76,20 @@
 .SoldOut {
   opacity: 60%;
 }
+
+/* ----- DISCOUNTED CARD -----*/
+.Discount .discountAmount {
+  position: absolute;
+  right: 1rem;
+  color: var(--color-accent-red);
+  padding-top: 0.5rem;
+}
+.Discount .productPrice {
+  text-decoration: line-through;
+  opacity: 80%;
+}
+
+.Discount .productPriceNew {
+  background-color: var(--color-accent-red-50);
+  border-left: 2px dashed var(--color-blue);
+}
