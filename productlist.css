@@ -1,6 +1,33 @@
+main {
+  margin: 1rem 10vw;
+}
+
+/* ----- PRODUCT LIST -----*/
+#products {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+}
+
+#headerSec {
+  color: var(--color-blue);
+  border: 3px solid var(--color-blue);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+#headerSec h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 /* ----- PRODUCT CARD -----*/
 .productCard {
-  border: 3px var(--color-blue) solid;
+  border-top: 1.5px var(--color-blue) solid;
+  border-right: 1.5px var(--color-blue) solid;
+  border-left: 1.5px var(--color-blue) solid;
+  border-bottom: 1.5px var(--color-blue) solid;
   display: flex;
   flex-direction: column;
   align-items: center;
