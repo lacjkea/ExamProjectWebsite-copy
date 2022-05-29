@@ -1,92 +1,93 @@
 .PPtextRight,
 .PPtextLeft,
-.PPchart{
-    padding: 2rem;
-    border-bottom: 3px solid var(--color-navy);
+.PPchart {
+  padding: 2rem;
+  border-bottom: 3px solid var(--color-navy);
 }
-.PP h1{
-    color: var(--color-navy);
-    text-align: center;
-    border-bottom: 3px solid var(--color-navy);
-    border-top: 3px solid var(--color-navy);
-    padding:1rem;
+.PP h1 {
+  color: var(--color-navy);
+  text-align: center;
+  border: 3px solid var(--color-navy);
+  /* border-top: 3px solid var(--color-navy); */
+  padding: 1rem;
+  margin-right: 7rem;
+  margin-left: 7rem;
 }
-.PPproductimg{ 
-    height: auto;  
-    text-align: center;
-    border-bottom: 3px solid var(--color-navy); 
-    padding:1rem; 
+.PPproductimg {
+  height: auto;
+  text-align: center;
+  border-bottom: 3px solid var(--color-navy);
+  padding: 1rem;
 }
-.PPproductimg img{
-    object-fit: cover;  
+.PPproductimg img {
+  object-fit: cover;
 }
-.PP h2,h3 {
-    font-family: var(--font-primary);
-    color: var(--color-accent-red);
-    letter-spacing: 2px;
+.PP h2,
+h3 {
+  font-family: var(--font-primary);
+  color: var(--color-accent-red);
+  letter-spacing: 2px;
 }
 .PPavailability,
-.PPyear{
-    color: var(--color-primary-offwhite-600);
-    font-weight:300;
-    font-size: 12px;
+.PPyear {
+  color: var(--color-primary-offwhite-600);
+  font-weight: 300;
+  font-size: 12px;
 }
-.PPquantity{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.PPquantity {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 #PPminus,
 #PPplus,
-#PPadd{
-    margin-top: 1rem;
-    border: 1.5px solid var(--color-navy);
-    padding: 0.3rem;
-    background-color:#F9F3ED;
-    text-transform: uppercase;
-    font-weight: 500;
+#PPadd {
+  margin-top: 1rem;
+  border: 1.5px solid var(--color-navy);
+  padding: 0.3rem;
+  background-color: #f9f3ed;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-#PPnumberPlace{
-    color: var(--color-accent-red-600);
-    padding: 0.2rem;
+#PPnumberPlace {
+  color: var(--color-accent-red-600);
+  padding: 0.2rem;
 }
 #PPminus:hover,
 #PPplus:hover,
 #PPnumberplace:hover,
-#PPadd:hover{
-    background-color: var(--color-navy);
-    color:#F9F3ED;
-    transition: all 0.2s ease;
+#PPadd:hover {
+  background-color: var(--color-navy);
+  color: #f9f3ed;
+  transition: all 0.2s ease;
 }
-.PPtextLeft p{
-    margin-bottom: 1rem;
-}
-
-@media only screen and (min-width: 800px){
-    .PPproduct{
-        display: grid;
-        grid-template-columns: 15% 30% 40% 15%;
-    }
-    .PPproductimg{
-        grid-column: 2/3;
-        border-top: 2px solid var(--color-navy);
-        border-left: 2px solid var(--color-navy);
-        border-right: 2px dashed var(--color-navy);
-    }
-    .PPtextRight{
-        border-top:2px solid var(--color-navy);
-        border-right: 2px solid var(--color-navy);
-    }
-    .PPtextLeft{
-        grid-column: 2/3;
-        grid-row: 2/3;
-        border-left: 2px solid var(--color-navy);
-        border-right:2px dashed var(--color-navy);
-
-    }
-    .PPchart{
-        grid-column: 3/4;
-        grid-row: 2/3;
-        border-right:2px solid var(--color-navy);
-    }
+.PPtextLeft p {
+  margin-bottom: 1rem;
 }
 
+@media only screen and (min-width: 800px) {
+  .PPproduct {
+    display: grid;
+    grid-template-columns: 15% 30% 40% 15%;
+  }
+  .PPproductimg {
+    grid-column: 2/3;
+    border-top: 2px solid var(--color-navy);
+    border-left: 2px solid var(--color-navy);
+    border-right: 2px dashed var(--color-navy);
+  }
+  .PPtextRight {
+    border-top: 2px solid var(--color-navy);
+    border-right: 2px solid var(--color-navy);
+  }
+  .PPtextLeft {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-left: 2px solid var(--color-navy);
+    border-right: 2px dashed var(--color-navy);
+  }
+  .PPchart {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-right: 2px solid var(--color-navy);
+  }
+}

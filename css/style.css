@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=El+Messiri:wght@400;500;600;700&display=swap");
 
 /* CSS RESET */
 * {
@@ -17,7 +17,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: var(--font-secondary);
-  background-color:#F9F3ED;
+  background-color: #f9f3ed;
 }
 
 h1 {
@@ -49,6 +49,7 @@ img {
   /* FONTS */
   --font-primary: "Dela Gothic One", sans-serif;
   --font-secondary: "Lato", sans-serif;
+  --font-logo: "El Messiri", sans-serif;
 
   /* primary - offwhite */
   --color-primary-offwhite: #f9f3ed;
@@ -120,6 +121,10 @@ header {
 #TopQuote {
   margin: 3rem;
 }
+.logotype,
+.home_link {
+  font-family: var(--font-logo);
+}
 
 /* sticky menu */
 
@@ -138,7 +143,7 @@ header {
 
 /* burger menu */
 .burger_menu div {
-  background-color: black;
+  background-color: var(--color-accent-red);
   width: 2rem;
   height: 0.3rem;
   margin: 5px;
@@ -176,6 +181,7 @@ header {
     transition: transform 0.5s ease-in-out;
     padding: 1rem;
     border-bottom-left-radius: 10%;
+    border: 3px solid var(--color-navy);
   }
   body {
     overflow-x: hidden;
