@@ -120,3 +120,19 @@ main {
   background-color: var(--color-accent-red-50);
   border-left: 2px dashed var(--color-blue);
 }
+
+/* Pagination */
+
+#paginationSec {
+  text-align: center;
+  margin: 1rem 0rem;
+  font-size: 1rem;
+}
+#paginationSec a {
+  color: var(--color-blue);
+}
+
+#paginationSec a:hover {
+  color: var(--color-accent-red);
+  transition: color 0.3s;
+}
