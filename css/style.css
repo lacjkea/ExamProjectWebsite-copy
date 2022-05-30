@@ -84,9 +84,7 @@ img {
 }
 
 /* ----- LANDING PAGE -----*/
-header {
-  height: 5vh;
-}
+
 .HeroTop {
   height: 65vh;
   background-image: url(../Assets/bistrofront.jpg);
@@ -140,7 +138,8 @@ header {
   flex-direction: row;
   gap: 1rem;
   justify-content: space-between;
-  margin: 0.5rem;
+  padding: 0.3rem 0;
+  border-bottom: 3px solid var(--color-navy);
 }
 
 /* sticky menu */
@@ -187,21 +186,22 @@ header {
   .list_menu_burger {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0;
     align-items: left;
     position: absolute;
     right: 0;
     top: 0;
     height: 30vh;
-    top: 6.8vh;
+    top: 6.5vh;
     width: 50%;
     background-color: var(--color-primary-offwhite);
-    justify-content: space-around;
+    justify-content: space-between;
     transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
-    padding: 1rem;
+
     border-bottom-left-radius: 10%;
     border: 3px solid var(--color-navy);
+    text-align: center;
   }
   body {
     overflow-x: hidden;
@@ -226,6 +226,14 @@ header {
   }
   .list_menu_active {
     transform: translateX(0);
+  }
+  .list_menu_burger li,
+  .list_menu_active li {
+    border-bottom: 3px solid var(--color-navy);
+    padding: 1rem 0;
+  }
+  .list_menu_burger li:last-child {
+    border-bottom: none;
   }
 }
 
