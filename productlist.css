@@ -1,19 +1,22 @@
-main {
-  margin: 1rem 10vw;
+.contentSec {
+  display: flex;
+  flex-direction: column;
+  margin: 10vw;
+  gap: 1.5rem;
 }
 
-/* ----- PRODUCT LIST -----*/
-#products {
-  display: grid;
+/* ----- PRODUCTS SECTION -----*/
+#productsSec {
+  /* display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 300px)); */
+  font: 100; /*DELETE!!!!!!!*/
 }
 
 #headerSec {
   color: var(--color-blue);
   border: 3px solid var(--color-blue);
   padding: 1rem;
-  margin-bottom: 2rem;
 }
 
 #headerSec h1 {
@@ -21,10 +24,14 @@ main {
   text-transform: uppercase;
   letter-spacing: 5px;
 }
-
+.topBar {
+  border-top: 3px var(--color-blue) solid;
+  border-right: 3px var(--color-blue) solid;
+  border-left: 3px var(--color-blue) solid;
+}
 /* ----- PRODUCT CARD -----*/
 .productCard {
-  border-top: 1.5px var(--color-blue) solid;
+  border-top: 3px var(--color-blue) solid;
   border-right: 1.5px var(--color-blue) solid;
   border-left: 1.5px var(--color-blue) solid;
   border-bottom: 1.5px var(--color-blue) solid;
