@@ -102,7 +102,9 @@ img {
 #TopQuote {
   height: 30vh;
   font-family: var(--font-secondary);
-  border-bottom: 1px var(--color-navy) solid;
+  font-weight: lighter;
+  text-transform: uppercase;
+  border-bottom: 3px var(--color-navy) solid;
 }
 
 /* #TopQuote::before {
@@ -111,10 +113,6 @@ img {
   height: 100%;
   width: 100%;
 } */
-
-#TopQuote {
-  margin: 3rem;
-}
 
 /* navigation */
 #home_link_mobile {
@@ -157,7 +155,7 @@ img {
   flex-direction: column;
   gap: 0.8rem;
   position: sticky;
-  top: 1.2rem;
+  top: 13rem;
 }
 .list_menu_sticky {
   display: flex;
@@ -322,13 +320,22 @@ a:active {
 }
 
 /* quote */
+
 .quote::before {
-  content: open-quote;
+  content: url(../Assets/“open-quote.svg);
   font-size: 6rem;
   color: var(--color-accent-red);
 }
 .quote::after {
-  content: close-quote;
+  content: url(../Assets/“close-quote.svg);
   font-size: 6rem;
   color: var(--color-accent-red);
+}
+.quote {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
 }
