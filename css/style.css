@@ -276,3 +276,15 @@ a:hover {
 a:active {
   color: var(--color-white);
 }
+
+/* quote */
+.quote::before {
+  content: open-quote;
+  font-size: 6rem;
+  color: var(--color-accent-red);
+}
+.quote::after {
+  content: close-quote;
+  font-size: 6rem;
+  color: var(--color-accent-red);
+}
