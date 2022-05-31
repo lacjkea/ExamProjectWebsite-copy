@@ -176,10 +176,16 @@ img {
   transition: transform 400ms ease-in-out;
 }
 .submenu {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  z-index: 2;
 }
 .menu_name {
   font-weight: 700;
+}
+li {
+  height: 100%;
 }
 @media only screen and (max-width: 600px) {
   .burger_menu {
@@ -240,11 +246,12 @@ img {
   .list_menu_burger li:last-child {
     border-bottom: none;
   }
-  .list_menu_burger li:first-child:hover .submenu {
+  /* .first_menu_item:hover .submenu {
     display: flex;
     flex-direction: column;
     gap: 0.9rem;
-  }
+    z-index: 2;
+  } */
   .submenu {
     padding-top: 0.9rem;
   }
