@@ -10,8 +10,8 @@ main {
 }
 
 #headerSec {
-  color: var(--color-blue);
-  border: 3px solid var(--color-blue);
+  color: var(--color-navy);
+  border: 3px solid var(--color-navy);
   padding: 1rem;
   margin-bottom: 2rem;
 }
@@ -24,14 +24,14 @@ main {
 
 /* ----- PRODUCT CARD -----*/
 .productCard {
-  border-top: 1.5px var(--color-blue) solid;
-  border-right: 1.5px var(--color-blue) solid;
-  border-left: 1.5px var(--color-blue) solid;
-  border-bottom: 1.5px var(--color-blue) solid;
+  border-top: 1.5px var(--color-navy) solid;
+  border-right: 1.5px var(--color-navy) solid;
+  border-left: 1.5px var(--color-navy) solid;
+  border-bottom: 1.5px var(--color-navy) solid;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--color-blue);
+  color: var(--color-navy);
   font-weight: 400;
 }
 
@@ -59,7 +59,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-top: 2px dashed var(--color-blue);
+  border-top: 2px dashed var(--color-navy);
   font-weight: 400;
 }
 .priceSec > * {
@@ -74,7 +74,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-top: 2px dashed var(--color-blue);
+  border-top: 2px dashed var(--color-navy);
 }
 .productActions > a {
   width: 100%;
@@ -82,19 +82,19 @@ main {
   text-align: center;
   padding: 0.5rem 0rem;
   text-transform: uppercase;
-  color: var(--color-blue);
+  color: var(--color-navy);
 }
 .productActions > a:nth-of-type(1) {
-  border-right: 2px dashed var(--color-blue);
+  border-right: 2px dashed var(--color-navy);
 }
 
 .btn:hover {
-  background-color: var(--color-blue);
+  background-color: var(--color-navy);
   color: var(--color-primary-offwhite);
 }
 
 .btn:active {
-  background-color: var(--color-blue-700);
+  background-color: var(--color-navy-700);
   color: var(--color-primary-offwhite);
 }
 
@@ -118,7 +118,7 @@ main {
 
 .Discount .productPriceNew {
   background-color: var(--color-accent-red-50);
-  border-left: 2px dashed var(--color-blue);
+  border-left: 2px dashed var(--color-navy);
 }
 
 /* Pagination */
@@ -129,7 +129,7 @@ main {
   font-size: 1rem;
 }
 #paginationSec a {
-  color: var(--color-blue);
+  color: var(--color-navy);
 }
 
 #paginationSec a:hover {
