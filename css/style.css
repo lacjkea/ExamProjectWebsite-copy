@@ -40,6 +40,11 @@ img {
   max-width: 100%;
 }
 
+p,
+a {
+  color: var(--color-navy);
+}
+
 /* REGULAR CSS STYLING BELOW */
 
 /* --- CSS FONT VARIABLES*/
@@ -348,6 +353,7 @@ iframe {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 2rem;
   }
 
   .fc2 {
@@ -359,10 +365,14 @@ iframe {
   }
   .footercontainer3 {
     display: inline;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .footercontainer3 a {
+    text-decoration: underline var(--color-navy);
   }
 }
