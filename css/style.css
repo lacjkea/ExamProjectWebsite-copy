@@ -195,9 +195,9 @@ img {
 }
 .menu_name1::after {
   content: "+";
-  height: 1.7rem;
-  width: 2rem;
-  margin: 0 1.3rem;
+  height: auto;
+  width: auto;
+  margin: 0 1.7rem;
 }
 li {
   height: 100%;
@@ -270,7 +270,27 @@ li {
   .submenu {
     padding-top: 0.9rem;
   }
+  .flag_dk {
+    background-image: url(../Assets/circle-flags_dkcircle_flag_dk.svg);
+    background-size: 1.8rem;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .flag_en {
+    background-image: url(../Assets/circle-flags_encircle_flag_en.svg);
+    background-size: 1.8rem;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .flags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 }
+/* flags */
 
 /* links */
 a {
