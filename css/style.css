@@ -121,6 +121,7 @@ img {
   color: var(--color-navy);
   font-family: var(--font-logo);
   font-size: 1.7rem;
+  flex-grow: 2;
 }
 
 .logotype,
@@ -138,8 +139,16 @@ img {
   flex-direction: row;
   gap: 1rem;
   justify-content: space-between;
-  padding: 0.3rem 0;
+  padding: 0.4rem;
   border-bottom: 3px solid var(--color-navy);
+  align-items: center;
+}
+.cart {
+  background-image: url(../Assets/clarity_shopping-cart-linecart.svg);
+  background-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
 }
 
 /* sticky menu */
@@ -218,7 +227,7 @@ li {
     right: 0;
     top: 0;
     height: auto;
-    top: 3.3rem;
+    top: 3.5rem;
     width: 60%;
     background-color: var(--color-primary-offwhite);
     justify-content: flex-start;
