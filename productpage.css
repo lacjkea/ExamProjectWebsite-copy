@@ -98,7 +98,7 @@
     text-align: center;
 }
 .relatedCard img{
-    width: 70%;
+    width: 80%;
     height: auto;
     margin-top: 1rem;
 }
@@ -115,20 +115,24 @@
     font-family: var(--font-primary);
     text-align: center;
     padding:1rem;
+    margin-left:3rem;
+    margin-right:3rem;
 }
 .relatedPrice{
     text-align: center;
     padding: 1rem;
     border-top: 1px dashed var(--color-navy);
     font-weight: 500;
+    font-size: 15px;
 
 }
 .relatedActions{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding:1rem;
+    padding:0.2rem;
     text-align: center;
     border-top: 1px dashed var(--color-navy);
+    font-size: 14px;
 
     
 }
@@ -138,6 +142,13 @@
 }
 .relatedActions a:hover{
     color: var(--color-accent-red);
+}
+.borderA{
+    border-right: 1px dashed var(--color-navy);
+    padding: 0.4rem;
+}
+.borderB{
+    padding: 0.4rem;
 }
 
 /*related product section for desktop*/
@@ -162,7 +173,7 @@
         justify-content: center;
         margin-top:5rem;
         margin-bottom:0;
-        grid-column: 2/ span3;
+        grid-column: 2/ span 3;
         border: none;
         position: relative;
     }
@@ -203,11 +214,51 @@
 
 .pre-btn {
   left: 0;
-  transform: rotate(-90deg);
+  
 
 }
 
 .nxt-btn {
   right: 0;
-  transform: rotate(90deg);
+
 }
+.pre-btn:hover,
+.nxt-btn:hover{
+    color:var(--color-navy);
+
+    
+}
+@media only screen and (min-width: 1300px){
+    .pre-btn,
+    .nxt-btn{
+        opacity:0;
+    }
+}
+/*characteristics chart in progress
+
+.chartBar {
+    margin: 1rem 0 0 0;
+    width: 16rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.chartLevel {
+    margin: 0.2rem 0;
+    flex-direction: row;
+  }
+
+.dot {
+    opacity: 0;
+    margin: 0.2rem 0.2rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: 0.1rem #ff9e00 solid;
+  }
+
+.fill {
+    background: rgb(102, 32, 32);
+  }
+*/
