@@ -175,7 +175,12 @@ img {
 .line3 {
   transition: transform 400ms ease-in-out;
 }
-
+.submenu {
+  display: none;
+}
+.menu_name {
+  font-weight: 700;
+}
 @media only screen and (max-width: 600px) {
   .burger_menu {
     display: block;
@@ -191,11 +196,11 @@ img {
     position: absolute;
     right: 0;
     top: 0;
-    height: 30vh;
+    height: auto;
     top: 6.5vh;
-    width: 50%;
+    width: 60%;
     background-color: var(--color-primary-offwhite);
-    justify-content: space-between;
+    justify-content: flex-start;
     transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
 
@@ -234,6 +239,14 @@ img {
   }
   .list_menu_burger li:last-child {
     border-bottom: none;
+  }
+  .list_menu_burger li:first-child:hover .submenu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .submenu {
+    padding-top: 0.9rem;
   }
 }
 
