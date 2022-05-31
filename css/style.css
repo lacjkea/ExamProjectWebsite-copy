@@ -183,6 +183,21 @@ img {
 }
 .menu_name {
   font-weight: 700;
+  font-size: 1.2rem;
+}
+.menu_name1 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu_name1::after {
+  content: "+";
+  height: 1.7rem;
+  width: 2rem;
+  margin: 0 1.3rem;
 }
 li {
   height: 100%;
@@ -203,7 +218,7 @@ li {
     right: 0;
     top: 0;
     height: auto;
-    top: 6.5vh;
+    top: 3.3rem;
     width: 60%;
     background-color: var(--color-primary-offwhite);
     justify-content: flex-start;
