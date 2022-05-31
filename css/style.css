@@ -280,6 +280,10 @@ a:active {
   row-gap: 1rem;
 }
 
+.fc12 {
+  max-width: 50%;
+}
+
 .footercontainer2 {
   padding-top: 2rem;
   display: flex;
@@ -289,6 +293,17 @@ a:active {
   align-items: flex-start;
 }
 
+.fc2 {
+  padding: 0 1rem;
+}
+
+.fc24 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
 .footercontainer3 {
   padding-top: 2rem;
   display: flex;
