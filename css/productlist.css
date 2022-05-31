@@ -9,7 +9,7 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
 }
 
-#headerSec {
+#contentHeaderSec {
   color: var(--color-navy);
   border: 3px solid var(--color-navy);
   padding: 1rem;

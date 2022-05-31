@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Le Caviste | Wine Selection</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/productlist.css" />
     <meta name="robots" content="noindex,nofollow" />
   </head>
@@ -46,10 +46,10 @@
           <li><a href="">About us</a></li>
           <li><a href="">Contact</a></li>
         </ul>
+      </div>
+    </header>
 
-        
-      </nav>
-      
+    <main>
       <div id="headerSec">
         <nav class="breadcrumb">
           <ol>
@@ -57,143 +57,160 @@
             <li class="categoryName">champagne</li>
           </ol>
         </nav>
-        <h1>champagne</h1>
+        <h1 id="categoryName">champagne</h1>
+        <nav class="sticky_nav_menu">
+          <ul class="list_menu_sticky">
+            <li><a href="">The wines</a></li>
+            <li><a href="">News & Events</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <div id="products">
-        <div class="topBar">
-          <div class="sortByDropDown">Sort by</div>
+      <div class="contentSec">
+        <div id="contentHeaderSec">
+          <nav class="breadcrumb">
+            <ol>
+              <li><a href="index.html">home</a></li>
+              <li class="categoryName">champagne</li>
+            </ol>
+          </nav>
+          <h1>champagne</h1>
         </div>
-        <!-- <template id="productCardReg-Template"> -->
-        <section class="productCard">
-          <div class="topProductSec">
-            <img
-              src="Assets/bottle.png"
-              alt="Wine Bottle Image"
-              class="productImage"
-            />
-            <h3 class="productName">joy sauvignon</h3>
+        <div id="products">
+          <div id="productsSec">
+            <div class="topBar">
+              <div class="sortByDropDown">Sort by</div>
+            </div>
+            <!-- <template id="productCardReg-Template"> -->
+            <section class="productCard">
+              <div class="topProductSec">
+                <img
+                  src="Assets/bottle.png"
+                  alt="Wine Bottle Image"
+                  class="productImage"
+                />
+                <h3 class="productName">joy sauvignon</h3>
+              </div>
+
+              <div class="priceSec">
+                <p class="productPrice">DKK 120;-</p>
+              </div>
+
+              <div class="productActions">
+                <a class="viewBtn btn" href="">view</a>
+                <a class="buyBtn btn" href="">buy</a>
+              </div>
+            </section>
+            <section class="productCard">
+              <div class="topProductSec">
+                <img
+                  src="Assets/bottle.png"
+                  alt="Wine Bottle Image"
+                  class="productImage"
+                />
+                <h3 class="productName">joy sauvignon</h3>
+              </div>
+
+              <div class="priceSec">
+                <p class="productPrice">DKK 120;-</p>
+              </div>
+
+              <div class="productActions">
+                <a class="viewBtn btn" href="">view</a>
+                <a class="buyBtn btn" href="">buy</a>
+              </div>
+            </section>
+            <section class="productCard">
+              <div class="topProductSec">
+                <img
+                  src="Assets/bottle.png"
+                  alt="Wine Bottle Image"
+                  class="productImage"
+                />
+                <h3 class="productName">joy sauvignon</h3>
+              </div>
+
+              <div class="priceSec">
+                <p class="productPrice">DKK 120;-</p>
+              </div>
+
+              <div class="productActions">
+                <a class="viewBtn btn" href="">view</a>
+                <a class="buyBtn btn" href="">buy</a>
+              </div>
+            </section>
+            <section class="productCard">
+              <div class="topProductSec">
+                <img
+                  src="Assets/bottle.png"
+                  alt="Wine Bottle Image"
+                  class="productImage"
+                />
+                <h3 class="productName">joy sauvignon</h3>
+              </div>
+
+              <div class="priceSec">
+                <p class="productPrice">DKK 120;-</p>
+              </div>
+
+              <div class="productActions">
+                <a class="viewBtn btn" href="">view</a>
+                <a class="buyBtn btn" href="">buy</a>
+              </div>
+            </section>
+            <section class="productCard SoldOut">
+              <div class="topProductSec">
+                <img
+                  src="Assets/bottle.png"
+                  alt="Wine Bottle Image"
+                  class="productImage"
+                />
+                <h3 class="productName">joy sauvignon</h3>
+              </div>
+
+              <div class="priceSec">
+                <p class="productPrice">SOLD OUT</p>
+              </div>
+
+              <div class="productActions">
+                <a class="viewBtn btn" href="">view</a>
+                <a class="buyBtn btn" href="">buy</a>
+              </div>
+            </section>
+            <section class="productCard Discount">
+              <div class="discountAmount">-10%</div>
+              <div class="topProductSec">
+                <img
+                  src="Assets/bottle.png"
+                  alt="Wine Bottle Image"
+                  class="productImage"
+                />
+                <h3 class="productName">joy sauvignon</h3>
+              </div>
+
+              <div class="priceSec">
+                <p class="productPrice">DKK 120;-</p>
+                <p class="productPriceNew">DKK 80;-</p>
+              </div>
+
+              <div class="productActions">
+                <a class="viewBtn btn" href="">view</a>
+                <a class="buyBtn btn" href="">buy</a>
+              </div>
+            </section>
           </div>
 
-          <div class="priceSec">
-            <p class="productPrice">DKK 120;-</p>
+          <div id="paginationSec">
+            <a href="0">&laquo;</a>
+            <a href="5">1</a>
+            <a href="2">2</a>
+            <a href="1">3</a>
+            <a href="8">4</a>
+            <a href="2">5</a>
+            <a href="0">&raquo;</a>
           </div>
-
-          <div class="productActions">
-            <a class="viewBtn btn" href="">view</a>
-            <a class="buyBtn btn" href="">buy</a>
-          </div>
-        </section>
-        <section class="productCard">
-          <div class="topProductSec">
-            <img
-              src="Assets/bottle.png"
-              alt="Wine Bottle Image"
-              class="productImage"
-            />
-            <h3 class="productName">joy sauvignon</h3>
-          </div>
-
-          <div class="priceSec">
-            <p class="productPrice">DKK 120;-</p>
-          </div>
-
-          <div class="productActions">
-            <a class="viewBtn btn" href="">view</a>
-            <a class="buyBtn btn" href="">buy</a>
-          </div>
-        </section>
-        <section class="productCard">
-          <div class="topProductSec">
-            <img
-              src="Assets/bottle.png"
-              alt="Wine Bottle Image"
-              class="productImage"
-            />
-            <h3 class="productName">joy sauvignon</h3>
-          </div>
-
-          <div class="priceSec">
-            <p class="productPrice">DKK 120;-</p>
-          </div>
-
-          <div class="productActions">
-            <a class="viewBtn btn" href="">view</a>
-            <a class="buyBtn btn" href="">buy</a>
-          </div>
-        </section>
-        <section class="productCard">
-          <div class="topProductSec">
-            <img
-              src="Assets/bottle.png"
-              alt="Wine Bottle Image"
-              class="productImage"
-            />
-            <h3 class="productName">joy sauvignon</h3>
-          </div>
-
-          <div class="priceSec">
-            <p class="productPrice">DKK 120;-</p>
-          </div>
-
-          <div class="productActions">
-            <a class="viewBtn btn" href="">view</a>
-            <a class="buyBtn btn" href="">buy</a>
-          </div>
-        </section>
-
-        <!-- Sold out card -->
-
-        <section class="productCard SoldOut">
-          <div class="topProductSec">
-            <img
-              src="Assets/bottle.png"
-              alt="Wine Bottle Image"
-              class="productImage"
-            />
-            <h3 class="productName">joy sauvignon</h3>
-          </div>
-
-          <div class="priceSec">
-            <p class="productPrice">SOLD OUT</p>
-          </div>
-
-          <div class="productActions">
-            <a class="viewBtn btn" href="">view</a>
-            <a class="buyBtn btn" href="">buy</a>
-          </div>
-        </section>
-
-        <!-- Discounted Card -->
-        <section class="productCard Discount">
-          <div class="discountAmount">-10%</div>
-          <div class="topProductSec">
-            <img
-              src="Assets/bottle.png"
-              alt="Wine Bottle Image"
-              class="productImage"
-            />
-            <h3 class="productName">joy sauvignon</h3>
-          </div>
-
-          <div class="priceSec">
-            <p class="productPrice">DKK 120;-</p>
-            <p class="productPriceNew">DKK 80;-</p>
-          </div>
-
-          <div class="productActions">
-            <a class="viewBtn btn" href="">view</a>
-            <a class="buyBtn btn" href="">buy</a>
-          </div>
-        </section>
-      </div>
-      <div id="paginationSec">
-        <a href="0">&laquo;</a>
-        <a href="#">1</a>
-        <a href="2">2</a>
-        <a href="###">3</a>
-        <a href="#">4</a>
-        <a href="#">5</a>
-        <a href="0">&raquo;</a>
+        </div>
       </div>
     </main>
     <footer></footer>
