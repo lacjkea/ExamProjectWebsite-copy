@@ -92,19 +92,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* aspect-ratio: 16/9; */
 }
 
 .HeroTop h1 {
   font-size: 2rem;
   color: var(--color-white);
-}
-
-#TopQuote {
-  height: 30vh;
-  font-family: var(--font-secondary);
-  font-weight: lighter;
-  text-transform: uppercase;
-  border-bottom: 3px var(--color-navy) solid;
+  font-weight: 700;
 }
 
 /* #TopQuote::before {
@@ -126,11 +120,10 @@ img {
 .home_link {
   font-family: var(--font-logo);
 }
-.logotype {
-  font-size: 4rem;
+/* .logotype {
+  font-size: 5rem;
   color: var(--color-white);
-  font-weight: 700;
-}
+} */
 
 .NavBar {
   display: flex;
@@ -138,6 +131,7 @@ img {
   gap: 1rem;
   justify-content: space-between;
   padding: 0.4rem;
+  padding-right: 1rem;
   border-bottom: 3px solid var(--color-navy);
   align-items: center;
 }
@@ -298,6 +292,25 @@ li {
   }
 }
 /* flags */
+.flag_dk {
+  background-image: url(../Assets/circle-flags_dkcircle_flag_dk.svg);
+  background-size: 1.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.flag_en {
+  background-image: url(../Assets/circle-flags_encircle_flag_en.svg);
+  background-size: 1.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.flags {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 0.5rem;
+}
 
 /* links */
 a {
@@ -321,7 +334,7 @@ a:active {
 
 /* quote */
 
-.quote::before {
+/* .quote::before {
   content: url(../Assets/“open-quote.svg);
   font-size: 6rem;
   color: var(--color-accent-red);
@@ -330,12 +343,36 @@ a:active {
   content: url(../Assets/“close-quote.svg);
   font-size: 6rem;
   color: var(--color-accent-red);
-}
-.quote {
+} */
+/* .quote {
   text-align: center;
   display: flex;
   flex-direction: row;
   gap: 3rem;
   align-items: center;
   justify-content: center;
+} */
+.open_quote {
+  background-image: url(../Assets/“open-quote.svg);
+  width: 2rem;
+  height: 2rem;
+  background-size: 2rem;
+  background-repeat: no-repeat;
+}
+.close_quote {
+  background-image: url(../Assets/“close-quote.svg);
+  width: 2rem;
+  height: 2rem;
+  background-size: 2rem;
+  background-repeat: no-repeat;
+}
+#TopQuote {
+  font-family: var(--font-secondary);
+  font-weight: lighter;
+  text-transform: uppercase;
+  border-bottom: 3px var(--color-navy) solid;
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
