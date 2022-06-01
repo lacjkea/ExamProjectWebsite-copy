@@ -40,6 +40,11 @@ img {
   max-width: 100%;
 }
 
+p,
+a {
+  color: var(--color-navy);
+}
+
 /* REGULAR CSS STYLING BELOW */
 
 /* --- CSS FONT VARIABLES*/
@@ -331,4 +336,132 @@ a:active {
   content: close-quote;
   font-size: 6rem;
   color: var(--color-accent-red);
+}
+
+/* FOOTER */
+
+iframe {
+  max-width: 100%;
+}
+
+.footercontainer {
+  border-top: 3px solid var(--color-navy);
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.footercontainer1 {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.fc11 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 0 2rem;
+}
+
+.footercontainer2 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.fc2 {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.fc21 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1.2rem;
+}
+
+.fc211 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 0.5rem;
+}
+
+.fc213 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.fc24 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footercontainer4 {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid var(--color-navy);
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 601px) {
+  .footercontainer {
+    border-left: 3px solid var(--color-navy);
+    border-right: 3px solid var(--color-navy);
+  }
+  .footercontainer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footercontainer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  .fc2 {
+    row-gap: 10px;
+  }
+
+  .fc24 {
+    justify-content: space-between;
+  }
+  .footercontainer3 {
+    display: inline;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footercontainer3 a {
+    text-decoration: underline var(--color-navy);
+  }
+
+  .justifiedtext {
+    text-align: left;
+  }
+
+  .fc213 {
+    align-items: flex-start;
+  }
 }
