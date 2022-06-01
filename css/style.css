@@ -183,9 +183,6 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: palevioletred;
-  }
   .burger_menu {
     display: block;
     cursor: pointer;
@@ -271,6 +268,7 @@ iframe {
 }
 .footercontainer1 {
   margin-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -357,7 +355,7 @@ iframe {
   }
 
   .fc2 {
-    row-gap: 20px;
+    row-gap: 10px;
   }
 
   .fc24 {
@@ -374,5 +372,13 @@ iframe {
 
   .footercontainer3 a {
     text-decoration: underline var(--color-navy);
+  }
+
+  .justifiedtext {
+    text-align: left;
+  }
+
+  .fc213 {
+    align-items: flex-start;
   }
 }
