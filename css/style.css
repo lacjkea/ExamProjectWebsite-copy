@@ -243,9 +243,17 @@ li {
     border: 3px solid var(--color-navy);
     text-align: center;
   }
-  body {
+
+  html {
+    /* lacj https://stackoverflow.com/questions/24193272/overflow-xhidden-on-mobile-device-not-working#:~:text=html%20%7B%0A%20%20...%0A%20%20overflow%2Dx%3A%20hidden%3B%0A%7D%0A%0Abody%20%7B%0A%20%20...%0A%20%20position%3A%20relative%3B%0A%20%20overflow%2Dx%3A%20hidden%3B%0A%7D */
     overflow-x: hidden;
   }
+
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+
   .list_menu_sticky {
     display: none;
   }
